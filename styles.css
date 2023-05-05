@@ -1,1 +1,74 @@
 /* your code here */
+.photo-album li, .variant li{
+    list-style-type: none;
+}
+.photo-album ul, .variant ul{
+    display: flex;
+    column-gap: 4px;
+}
+.photo-album ul li img{
+    border:1px solid black;
+}
+.product__photo{
+    width: 25%;
+    height: 75%;
+    margin-left:350px;
+    box-shadow: 3px 10px white;
+    z-index: 1;
+}
+.product__info{
+    width: 50%;
+    margin-right:200px;
+}
+.photo-main{
+    background-color: lightgreen;
+}
+.controls{
+    display:flex;
+    justify-content: space-between;
+}
+.controls .fa{
+    margin:10px;
+    color: white;
+}
+.container{
+    background-color: white;
+}
+.photo-main img{
+    position: relative;
+    left:-90px;
+}
+.product{
+    display:flex;
+    column-gap: 10px;
+    padding:20px;
+    box-sizing: border-box;
+}
+.product__info .title span{
+    color: gray;
+    font-size: medium;
+}
+.product__info .price{
+    color: red;
+    margin: 30px;
+    margin-left:0;
+    font-size: 32px;
+} 
+.product__info .price span{
+    color:red;
+    font-size: 64px;
+}
+.variant ul li img:hover{
+    border: 1px solid black;
+}
+.variant h3, .description h3{
+    color:grey;
+}
+.addToCart button{
+    color: white;
+    background-color: red;
+    height: 50px;
+    width:200px;
+    border-radius: 5px;
+    border:0;
+}
